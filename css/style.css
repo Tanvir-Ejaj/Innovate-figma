@@ -181,7 +181,7 @@ ol {
 }
 
 .from-1 {
-  width: 638px;
+  max-width: 638px;
   position: relative;
 }
 
@@ -563,7 +563,7 @@ ol {
   margin-bottom: 120px;
 }
 
-.header{
+.studies-head{
   position: relative;
 }
 
@@ -726,12 +726,15 @@ ol {
 
 .two .price-head p{
   font-weight: var(--semi-bold-font-weight);
+  padding: 0;
 }
 .three .price-head p{
   font-weight: var(--semi-bold-font-weight);
+  padding: 0;
 }
 .four .price-head p{
   font-weight: var(--semi-bold-font-weight);
+  padding: 0;
 }
 
 .price-head h3{
@@ -746,7 +749,7 @@ ol {
 .price-details{
   padding-left: 24px;
   padding-top: 29px;
-  padding-bottom: 28px;
+  padding-bottom: 29px;
 }
 
 .price-details span{
@@ -880,7 +883,7 @@ ol {
 /* Seo area start */
 
 #seo{
-  width: 1520px;
+  max-width: 1520px;
   margin: 120px auto;
   background: url(../images/banner-2.jpg) no-repeat center / cover;
   padding: 125px 0;
